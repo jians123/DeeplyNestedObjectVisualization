@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Durer';
+    src: url("../font/Durer.ttf");
+}
+.content{
+    width: 100%;
+    position: relative;
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+}
+.text1{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+}
+.scroll{
+    color: black;
+    font-size: 1.5vw;
+    font-family: 'Durer';
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.compass{
+    width: 13%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60%;
+}
+.content_text{
+    position: absolute;
+    width: 80%;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #947147;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.geographical{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #947147;
+    font-family: 'Durer';
+    font-size: 2vw;
+    bottom: 12%;
+}
+.geogPos{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #947147;
+    font-family: 'Durer';
+    font-size: 3vw;
+    bottom: 5%;
+}
