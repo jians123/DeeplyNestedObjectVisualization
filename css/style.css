@@ -43,6 +43,10 @@ img {
     left: 50%;
     transform: translateX(-50%);
     top: 60%;
+    transition: all 0.3s;
+}
+.compass:hover{
+    transform: translateX(-50%) scale(1.05);
 }
 
 .content_text {
