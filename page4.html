@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deeply Nested Object</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/site.js"></script>
+    <script src="js/snow.js"></script>
+</head>
+<body>
+<audio src="font/LTX.mp3" loop autoplay id="audio"></audio>
+
+    <div class="content">
+        <img src="image/04.png"/>
+        <div class="population"></div>
+        <div class="GDP"></div>
+        <div class="nationalDay"></div>
+        <div class="annualPrecipitation"></div>
+        <a href="page5.html" class="Next">Next Page</a>
+    </div>
+<!--<div class="mark">-->
+<!--    <div class="mark_ele">Disappear</div>-->
+<!--</div>-->
+<script>
+    let population = document.querySelector(".population")
+    let GDP = document.querySelector(".GDP")
+    let nationalDay = document.querySelector(".nationalDay")
+    let annualPrecipitation = document.querySelector(".annualPrecipitation")
+    population.innerHTML = 'Population' + '  ' + ball.population
+    GDP.innerHTML = 'GDP:' + '  ' + ball.GDP
+    nationalDay.innerHTML = 'NationalDay:' + '  ' + ball.nationalDay.toLocaleDateString()
+    annualPrecipitation.innerHTML = 'Annual Precipitation: ' + ball.annualPrecipitation
+</script>
+<!--    <script src="js/audio.js"></script>-->
+</body>
+</html>
